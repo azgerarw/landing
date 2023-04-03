@@ -1,0 +1,49 @@
+.banner{
+  padding: 150px 0px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.banner h1{
+  margin: 0;
+}
+
+#first {
+  position: absolute;
+  right: 20px;
+  height: 100%;
+  width: 400px;
+}
+
+#second {
+  left: 20px;
+  position: absolute;
+  height: 100%;
+  width: 400px;
+}
+
+.container{
+margin: 0 auto;
+}
+
+.button{
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: blue;
+  border: solid 1px blue;
+}
+
+.title{
+  font-size: x-large;
+  font-weight: bold;
+}
